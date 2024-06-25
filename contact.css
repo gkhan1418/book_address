@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    height: 80px;
+}
+.form-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: #16a085;
+    color: #fff;
+    margin: 9px;
+}
+.btn:hover{
+    background-color: #16a085;
+   
+   
+}
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.bag-image img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.count {
+    position: relative;
+}
+
+.Services {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f3ebeb;
+    font-weight: 600;
+    text-align: center; 
+}
+.custom ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 9px 16px;
+}
+
+.custom {
+    background-color: #ecebeb;
+    width: 100%; 
+}
+
+.custom ul li a {
+    color: coral;
+    text-decoration: none;
+}
+form{
+    width: 500px;
+}
+@media screen and (max-width: 991px) {
+    .bag-image img {
+        height: 25vh;
+    }
+    .Services {
+        top: 15%;
+        font-size: 24px;
+    }
+    .laptop {
+        margin: 20px auto;
+        text-align: center;
+       
+    }
+    .navbar-nav{
+        background-color: #f5f5f5;
+       }
+       .navbar-navbar{
+        padding: 10px;
+       }
+}
+@media screen and (max-width: 540px) {
+    .row-30{
+        margin-left: -80px;
+     }
+    .laptop {
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px; 
+        max-width: 100%; 
+    }
+    .inner-icon {
+        position: absolute;
+        top: -18%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .solid {
+        color: #33a58e;
+        font-size: 28px;
+        margin-left: auto;
+        padding: 0;
+    }
+    .bag-image img {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+}
+/* header section */
+.nave-Item{
+    list-style-type: none;
+   padding: 0px 11px;
+}
+.navlink{
+   text-decoration: none;
+   color: #626567;
+}
+.navlink:hover{
+  color: #33a58e;
+  margin: 0px 2px;
+}
+
+
+/* footer */
+#footer{
+  
+    background-color: #f5f5f5;
+    
+   }
+   .nav-footer li{
+    list-style-type: none;
+    padding: 8px 0px;
+   }
+   .nav-footer li a{
+    text-decoration: none;
+    color: #626567;
+    
+   }
+   .nav-footer li a:hover{
+       color: #33a58e;
+       margin: 2px 6px;
+   }
+   .nav-footer{
+    margin: 0;
+    padding: 0;
+   }
+   
+   .fab {
+       color: #33a58e;
+     padding: 0px 2px;
+   }
+   
